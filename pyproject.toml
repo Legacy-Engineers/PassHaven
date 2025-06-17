@@ -1,0 +1,18 @@
+[project]
+name = "pass-haven"
+version = "0.1.0"
+description = "PassHaven is an open-source, self-hosted password manager that puts your security first. It offers end-to-end encryption, cross-device syncing via web, browser extension, and mobile app, giving you full control over your passwords without relying on third-party services."
+authors = [
+    {name = "Dawdaborje",email = "dawdaborjekujabi@gmail.com"}
+]
+license = {text = "GPL-3.0"}
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "django (>=5.2.3,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
